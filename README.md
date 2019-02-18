@@ -1,6 +1,6 @@
 # vue-global-variable
 
-Binding helpers for Vuex and vue-class-component
+Reactive global variable can be sharable between components
 
 [Demo] (https://mudin.github.io/vue-global-variable)
 
