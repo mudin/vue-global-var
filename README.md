@@ -12,7 +12,7 @@ Reactive global variable can be sharable between components
 ## Installation
 
 ```bash
-$ npm install --save vue-global-variable
+$ npm install --save vue-global-var
 ```
 
 ## How to use
