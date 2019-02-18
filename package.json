@@ -1,5 +1,5 @@
 {
-  "name": "vue-global-variable",
+  "name": "vue-global-var",
   "version": "0.0.1",
   "author": "mudin",
   "description": "Reactive global variable can be sharable between components",
@@ -55,17 +55,15 @@
     "tslint-config-ktsn": "^2.1.0",
     "typescript": "^2.8.3",
     "uglify-js": "^3.3.25",
-    "vue-class-component": "^6.2.0",
     "webpack": "^4.8.3",
     "webpack-cli": "^3.2.3",
     "webpack-espower-loader": "^2.0.0"
   },
-  "peerDependencies": {
-    "vue": "^2.5.0",
-    "vuex": "^3.0.1"
+  "dependencies": {
+    "vue": "^2.6.6",
+    "vuex": "^3.1.0"
   },
   "directories": {
     "lib": "lib"
-  },
-  "dependencies": {}
+  }
 }
