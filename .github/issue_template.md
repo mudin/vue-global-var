@@ -5,7 +5,7 @@ BEFORE SUBMITTING YOUR ISSUE
 # Issue Reporting Guideline
 
 ## Questions
-For general usage question which is not related to vuex-class
+For general usage question which is not related to vue-global-variable
 should be posted to StackOverflow or other Q&A forum. 
 Such questions will be closed without an answer.
 
