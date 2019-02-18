@@ -2,6 +2,8 @@
 
 Binding helpers for Vuex and vue-class-component
 
+[Demo] (https://mudin.github.io/vue-global-variable)
+
 ## Dependencies
 
 - [Vue](https://github.com/vuejs/vue)
@@ -17,7 +19,6 @@ $ npm install --save vue-global-variable
 
 ```js
 Vue.use(VueGlobalVariable, {
-  // store,
   globals: {
     user: new User('user1'),
   },

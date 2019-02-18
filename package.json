@@ -17,13 +17,14 @@
     "lib"
   ],
   "homepage": "https://github.com/mudin/vue-global-variable",
-  "bugs": "https://github.com/mudin/vue-global-variable/issues",
+  "bugs": {
+    "url": "https://github.com/mudin/vue-global-variable/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mudin/vue-global-variable.git"
+    "url": "git+https://github.com/mudin/vue-global-variable.git"
   },
   "scripts": {
-    "prepublishOnly": "run-s lint test clean build",
     "clean": "rm -rf lib dist .tmp",
     "build": "run-s build:ts build:cjs build:dev build:prod",
     "build:ts": "tsc -p src",
@@ -62,5 +63,9 @@
   "peerDependencies": {
     "vue": "^2.5.0",
     "vuex": "^3.0.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {}
 }
