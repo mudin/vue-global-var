@@ -2,7 +2,7 @@
 
 Reactive global variable can be sharable between components
 
-[Demo] (https://mudin.github.io/vue-global-variable)
+[Demo](https://mudin.github.io/vue-global-var-demo/)
 
 ## Dependencies
 

@@ -1,6 +1,6 @@
 {
   "name": "vue-global-var",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "mudin",
   "description": "Reactive global variable can be sharable between components",
   "keywords": [
