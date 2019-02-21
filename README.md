@@ -21,6 +21,9 @@ $ npm install --save vue-global-var
 Vue.use(VueGlobalVariable, {
   globals: {
     user: new User('user1'),
+    obj:{},
+    config:Config,
+    ....
   },
 });
 ```
