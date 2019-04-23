@@ -1,12 +1,14 @@
 {
   "name": "vue-global-var",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "author": "mudin",
   "description": "Reactive global variable can be sharable between components",
   "keywords": [
     "vue",
     "vuex",
-    "global-variable"
+    "reactive",
+    "global-variable",
+    "share"
   ],
   "license": "MIT",
   "main": "dist/vue-global-var.cjs.js",
