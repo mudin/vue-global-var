@@ -1,4 +1,4 @@
-# vue-global-variable
+# vue-global-var
 
 Reactive global variable can be sharable between components
 
@@ -18,9 +18,9 @@ $ npm install --save vue-global-var
 ## How to use
 
 ```js
-Vue.use(VueGlobalVariable, {
+Vue.use(VueGlobalVar, {
   globals: {
-    user: new User('user1'),
+    $user: new User('user1'),
     obj:{},
     config:Config,
     ....
